@@ -158,7 +158,7 @@ pre {
   margin-bottom: 0;
   float: left; }
   .site-title, .site-title:visited {
-    color: #424242; }
+    color: #ED09A5; }
 
 .site-nav {
   float: right;
@@ -166,7 +166,7 @@ pre {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #111;
+    color: #ED09A5;
     line-height: 1.5; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
