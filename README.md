@@ -10,8 +10,9 @@ Fuer mehr Info [hier](https://www.ruby-lang.org/de/downloads/)
 #### Mitglied in der geekfem organisation bei github
 Es muss dich jemand zur [Organisation](https://github.com/geekfem) hinzufuegen
 
-#### Clone geekfem website repository
+#### Clone geekfem website repository & projekt initialisieren
     git clone git@github.com:geekfem/geekfem.github.io.git
+    bundle install
 
 #### Seite editieren
 Neuer Artikel:
@@ -22,7 +23,9 @@ Neue Seite:
     octopress new page some-page
 
 #### Lokale Vorschau
-Um die Aenderungen lokal anzuschauen: 'jekyll serve'
+Um die Aenderungen lokal anzuschauen:
+
+    jekyll serve
 
 #### Push und Deployment
 Sieht alles super aus, kanns los gehen:  
