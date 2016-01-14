@@ -4,7 +4,7 @@ email: geekfem@posteo.de
 description: > # this means to ignore newlines until "baseurl:"
   Because we can!
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://geekfem.net" # the base hostname & protocol for your site
 twitter_username: geekfem_
 github_username:  geekfem
 
