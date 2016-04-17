@@ -6,25 +6,27 @@ permalink: /termine/
 
 ### Wie sieht unser Programm in den nächsten Wochen aus?
 
-#### 17. März - Einführung in Verschlüsselung
-Wir wollen uns mit sicheren Passwoertern, verschlüsselten Emails und wie sich die Daten im Netz bewegen beschäftigen. Es werden keine besonderen Kenntnisse vorausgesetzt und da wir alles gleich ausprobieren wollen, wäre es super, wenn Du einen Laptop mitbringst.
-
-#### 12. April
-Wir treffen uns im Rahmen des OpenChaos vom CCC. Hier planen wir zukuenftige Termine, besprechen Projekte, programmieren zusammen oder haben einfach gemeinsam Spass am Feierabend.
-
 #### 21. April -  Big Data (commons)
 Einführung in das Thema
 
-#### 10. Mai
-Wir treffen uns im Rahmen des OpenChaos vom CCC. Hier planen wir zukuenftige Termine, besprechen Projekte, programmieren zusammen oder haben einfach gemeinsam Spass am Feierabend.
+#### Mai
+Künstliche Intelligenz - kleine Programmierbeispiele
+Wir schauen uns einige Beispiele aus dem Buch "Collective Intelligence" mit der Skriptsprache des Vertrauens an.
+
+#### Juni
+Kurzabriss der Entwicklung des Feminismums bis heute.
+
+#### Juli
+Arduino Workshop
+
+#### August
+??
+
+#### 
 
 #### Themen in der Planung für kommende Monate
-* Künstliche Intelligen
-* Programmierübungen zur Mustererkennung und Regression in einer
-Skriptsprache
-* Feminismus - eine Kurzusammenfassung und anschliessende Diskussion
 * Wie funktioniert mein Handy
-
+* Call for Participation - 33c3 - Diversity Outreach (wird ab Juni nebenher behandelt)
 
 ### Wo treffen wir uns?
 CCC Hamburg @ Frappant (Viktoriakaserne)  
