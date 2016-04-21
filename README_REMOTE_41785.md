@@ -3,7 +3,6 @@
 ### Set up
 #### Installiere Ruby
 Fuer mehr Info [hier](https://www.ruby-lang.org/de/downloads/)
-Wenn du auf dem Linux per Packetmanager installierst, vergiss nicht die Header-Dateien (devel) zu installieren.
 
 #### Github Account anlegen
 [Github](https://www.github.com)
