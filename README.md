@@ -20,10 +20,9 @@ Es muss dich jemand zur [Organisation](https://github.com/geekfem) hinzufuegen
 
 #### Seite editieren
 
-develop-Branch auschecken
+develop-Branch auschecken:
 
    git checkout develop
-
 Neuer Artikel:
 
     octopress new post "My Title"
@@ -32,7 +31,7 @@ Neue Seite:
     octopress new page some-page
 
 ###### Markdown
-Seiten und Posts die du anlegst oder editieren sind in Markdown geschrieben. Hier gibt es ein
+Seiten und Posts die du anlegst oder editierst sind in Markdown geschrieben. Hier gibt es ein
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 #### Lokale Vorschau
