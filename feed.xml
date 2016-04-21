@@ -6,9 +6,25 @@
 </description>
     <link>http://geekfem.net/</link>
     <atom:link href="http://geekfem.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 21 Apr 2016 22:18:14 +0200</pubDate>
-    <lastBuildDate>Thu, 21 Apr 2016 22:18:14 +0200</lastBuildDate>
+    <pubDate>Thu, 21 Apr 2016 22:45:23 +0200</pubDate>
+    <lastBuildDate>Thu, 21 Apr 2016 22:45:23 +0200</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Big-data (commons)</title>
+        <description>&lt;p&gt;Am 21. April findet bei uns ein Vortrag zum Thema Big Data (commons) statt&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/bd_versprechungen.png&quot; alt=&quot;Big Data&quot; /&gt;
+Big Data ist ein Thema, dass in den letzten Jahren für Regierungen, Unternehmen und die Wissenschaft immer wichtiger geworden ist. Mit Big Data sind Vorstellungen von effizientereen, schnelleren Abläufen, von “smart cities”, von Möglichkeiten der Zukunftsvorhersage bis   hin zum totalen Verständnis der Welt verbunden. Big Data ist Big Business, für Unternehmen wie Google, facebook, twitter sind Daten die Geschäftsgrundlage. Spätestens seit Edward Snowden ist uns klar, das Big Data auch Big Brother ist.&lt;/p&gt;
+
+&lt;p&gt;Beim Treffen wird es einen Input mit anschließender Diskussion geben. Im Input wird es nach einer kurzen Übersicht und Eingrenzung des Phänomenbereichs vor allem darum gehen, welche Konsequenzen Big Data für das Internet, die Zivilgesellschaft und die Demokratie haben können. Im Anschluss werden die Ergebnisse eines Workshop zu “Big Data Commons” vor, der im Oktober 2015 im Rahmen der “UNCOMMONS” Konferenz der Berliner Gazette (http://berlinergazette.de/uncommons/) durchgeführt wurde  und in dem daran gearbeitet wurde, eine Idee von “Big Data Commons” als Antwort auf die Gefahren von Big Data zu entwickeln. Die Forderung danach, dass wir, die User, die Daten direkt oder indirekt erstellen, auch das Recht haben sollten, über die Nutzung und Weitergabe der Daten zu bestimmen, ist potentiell eine der wichtigsten politischen Forderung der Zukunft und eng verbunden mit dem Kampf um ein freies Internet.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 Apr 2016 22:22:30 +0200</pubDate>
+        <link>http://geekfem.net/2016/04/21/big-data.html</link>
+        <guid isPermaLink="true">http://geekfem.net/2016/04/21/big-data.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Vortrag: DNA Als Speichermedium</title>
