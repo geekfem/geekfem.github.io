@@ -11,21 +11,11 @@ permalink: /termine/
 Big Data ist ein Thema, dass in den letzten Jahren für Regierungen, Unternehmen und die Wissenschaft immer wichtiger geworden ist. Mit Big Data sind Vorstellungen von effizientereen, schnelleren Abläufen, von "smart cities", von Möglichkeiten der Zukunftsvorhersage bis   hin zum totalen Verständnis der Welt verbunden. Big Data ist Big Business, für Unternehmen wie Google, facebook, twitter sind Daten die Geschäftsgrundlage. Spätestens seit Edward Snowden ist uns klar, das Big Data auch Big Brother ist.
 Beim Treffen wird es einen Input mit anschließender Diskussion geben. Im Input wird es nach einer kurzen Übersicht und Eingrenzung des Phänomenbereichs vor allem darum gehen, welche Konsequenzen Big Data für das Internet, die Zivilgesellschaft und die Demokratie haben können. Im Anschluss werden die Ergebnisse eines Workshop zu "Big Data Commons" vor, der im Oktober 2015 im Rahmen der "UNCOMMONS" Konferenz der Berliner Gazette (http://berlinergazette.de/uncommons/) durchgeführt wurde  und in dem daran gearbeitet wurde, eine Idee von "Big Data Commons" als Antwort auf die Gefahren von Big Data zu entwickeln. Die Forderung danach, dass wir, die User, die Daten direkt oder indirekt erstellen, auch das Recht haben sollten, über die Nutzung und Weitergabe der Daten zu bestimmen, ist potentiell eine der wichtigsten politischen Forderung der Zukunft und eng verbunden mit dem Kampf um ein freies Internet.
 
-#### Mai
-Künstliche Intelligenz - kleine Programmierbeispiele
-Wir schauen uns einige Beispiele aus dem Buch "Collective Intelligence" mit der Skriptsprache des Vertrauens an.
-
-#### Juni
-Kurzabriss der Entwicklung des Feminismums bis heute.
-
-#### Juli
-Arduino Workshop
-
-#### August
-??
-
-
 #### Themen in der Planung für kommende Monate
+
+* Künstliche Intelligenz
+* Programmierübungen zur Mustererkennung und Regression in einer Skriptsprache
+* Feminismus - eine Kurzusammenfassung und anschliessende Diskussion
 * Wie funktioniert mein Handy
 * Call for Participation - 33c3 - Diversity Outreach (wird ab Juni nebenher behandelt)
 
