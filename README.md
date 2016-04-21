@@ -1,5 +1,8 @@
 ## Geekfem Website
 
+# Branches
+Arbeite immer im develop-Branch, der Master-Branch wird von Octopress für die Deployments genutzt.
+
 ### Set up
 #### Installiere Ruby
 Fuer mehr Info [hier](https://www.ruby-lang.org/de/downloads/)
@@ -16,12 +19,20 @@ Es muss dich jemand zur [Organisation](https://github.com/geekfem) hinzufuegen
     bundle install
 
 #### Seite editieren
+
+develop-Branch auschecken:
+
+    git checkout develop
 Neuer Artikel:
 
     octopress new post "My Title"
 Neue Seite:
 
     octopress new page some-page
+
+###### Markdown
+Seiten und Posts die du anlegst oder editierst sind in Markdown geschrieben. Hier gibt es ein
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 #### Lokale Vorschau
 Um die Aenderungen lokal anzuschauen:
@@ -35,7 +46,6 @@ Sieht alles super aus, kanns los gehen:
     git commit -m "Artikel hinzugefuegt"
     git pull --rebase
     git push
-
 
 Bauen der Seite mit:  
 
