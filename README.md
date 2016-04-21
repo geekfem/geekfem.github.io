@@ -22,7 +22,7 @@ Es muss dich jemand zur [Organisation](https://github.com/geekfem) hinzufuegen
 
 develop-Branch auschecken
 
-   git co develop
+   git checkout develop
 
 Neuer Artikel:
 
