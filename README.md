@@ -1,26 +1,26 @@
-## Geekfem Website
+# Geekfem Website
 
-# Branches
+## Branches
 Arbeite immer im develop-Branch, der Master-Branch wird von Octopress für die Deployments genutzt.
 
-### Set up
-#### Installiere Ruby
+## Set up
+### Installiere Ruby
 Fuer mehr Info [hier](https://www.ruby-lang.org/de/downloads/)
 Wenn du auf dem Linux per Packetmanager installierst, vergiss nicht die Header-Dateien (devel) zu installieren.
 
-#### Github Account anlegen
+### Github Account anlegen
 [Github](https://www.github.com)
 
-#### Mitglied in der geekfem organisation bei github
+### Mitglied in der geekfem organisation bei github
 Es muss dich jemand zur [Organisation](https://github.com/geekfem) hinzufuegen
 
-#### Clone geekfem website repository & Projekt initialisieren
+### Clone geekfem website repository & Projekt initialisieren
     git clone https://github.com/geekfem/geekfem.github.io.git # Projekt runterladen
     cd geekfem.github.io # ins Projektverzeichnis wechseln
     gem install bundler # bundler installieren
     bundle install # octopress und co installieren
 
-#### Seite editieren
+### Seite editieren
 
 develop-Branch auschecken:
 
@@ -38,16 +38,16 @@ Neue Seite:
 
     octopress new page some-page
 
-###### Markdown
+##### Markdown
 Seiten und Posts die du anlegst oder editierst sind in Markdown geschrieben. Hier gibt es ein
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-#### Lokale Vorschau
+### Lokale Vorschau
 Um die Aenderungen lokal anzuschauen:
 
     jekyll serve
 
-#### Push und Deployment
+### Push und Deployment
 Sieht alles super aus, kanns los gehen:  
 
     git add .  
