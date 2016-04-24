@@ -14,8 +14,9 @@ Wenn du auf dem Linux per Packetmanager installierst, vergiss nicht die Header-D
 #### Mitglied in der geekfem organisation bei github
 Es muss dich jemand zur [Organisation](https://github.com/geekfem) hinzufuegen
 
-#### Clone geekfem website repository & projekt initialisieren
+#### Clone geekfem website repository & Projekt initialisieren
     git clone git@github.com:geekfem/geekfem.github.io.git
+    gem install bundler
     bundle install
 
 #### Seite editieren
@@ -23,6 +24,12 @@ Es muss dich jemand zur [Organisation](https://github.com/geekfem) hinzufuegen
 develop-Branch auschecken:
 
     git checkout develop
+    
+Lokale Version aktualisieren:
+
+    git pull
+    bundle install
+    
 Neuer Artikel:
 
     octopress new post "My Title"
