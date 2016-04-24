@@ -5,6 +5,7 @@ Arbeite immer im develop-Branch, der Master-Branch wird von Octopress für die D
 
 ## Set up
 ### Installiere Ruby
+Du brauchst (mindestens) die im [Gemfile](https://github.com/geekfem/geekfem.github.io/blob/develop/Gemfile) genannte Version.
 Fuer mehr Info [hier](https://www.ruby-lang.org/de/downloads/)
 Wenn du auf dem Linux per Packetmanager installierst, vergiss nicht die Header-Dateien (devel) zu installieren.
 
