@@ -5,16 +5,21 @@ permalink: /termine/
 ---
 
 ### Wie sieht unser Programm in den nächsten Wochen aus?
+* März 15.3.17: Website
 
-#### 21. April -  Big Data (commons)
-[Vortrag zum Thema Big Data]({{root_url}} /2016/04/21/big-data.html)
+#In Arbeit:
+* Vernetzungstreffen der in Hamburg ansässigen Gruppen von an Technik interessierten Frauen\* im Mai? (Mithilfe gesucht)
 
-#### Themen in der Planung für kommende Monate
+#### Wunschliste
 
+* Wie funktioniert mein Handy?
+
+
+#### Themen 2016 u.a.
+* 21. April -  Big Data (commons) [Vortrag zum Thema Big Data]({{root_url}} /2016/04/21/big-data.html)
 * Künstliche Intelligenz
-* Programmierübungen zur Mustererkennung und Regression in einer Skriptsprache
+* Programmierübungen zur Mustererkennung und Regression in einer Skriptsprache (33c3)
 * Feminismus - eine Kurzusammenfassung und anschliessende Diskussion
-* Wie funktioniert mein Handy
 * Call for Participation - 33c3 - Diversity Outreach (wird ab Juni nebenher behandelt)
 
 ### Wo treffen wir uns?
