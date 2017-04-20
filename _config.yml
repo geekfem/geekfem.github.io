@@ -1,6 +1,6 @@
 # Site settings
 title: Geekfem Hamburg
-email: geekfem@posteo.de
+email: geekfem@hamburg.ccc.de
 description: > # this means to ignore newlines until "baseurl:"
   Because we can!
 baseurl: "" # the subpath of your site, e.g. /blog/
