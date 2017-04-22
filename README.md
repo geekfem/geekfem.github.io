@@ -34,10 +34,10 @@ Lokale Version aktualisieren:
     
 Neuer Artikel:
 
-    octopress new post "My Title"
+    bundle exec octopress new post "My Title"
 Neue Seite:
 
-    octopress new page some-page
+    bundle exec octopress new page some-page
 
 ##### Markdown
 Seiten und Posts die du anlegst oder editierst sind in Markdown geschrieben. Hier gibt es ein
@@ -46,7 +46,7 @@ Seiten und Posts die du anlegst oder editierst sind in Markdown geschrieben. Hie
 ### Lokale Vorschau
 Um die Aenderungen lokal anzuschauen:
 
-    jekyll serve
+    bundle exec jekyll serve
 
 ### Push und Deployment
 Sieht alles super aus, kanns los gehen:  
@@ -58,11 +58,11 @@ Sieht alles super aus, kanns los gehen:
 
 Bauen der Seite mit:  
 
-    jekyll build  
+    bundle exec jekyll build  
 
 Deployen auf github pages mit:  
 
-    octopress deploy
+    bundle exec octopress deploy
 
 Fuer mehr Informationen ist die Dokumentation von [Octopress 3.0](https://github.com/octopress/octopress) sehr gut
 
