@@ -23,10 +23,3 @@ CCC Hamburg @ Frappant (Viktoriakaserne) <br>
 Zeiseweg 9 <br>
 22767 Hamburg 
 
-### Wann ist Geekfem?
-Wir treffen uns an jedem dritten Donnerstag im Monat um 19:00.
-
-An diesem Termin basteln und experimentieren wir mit Hard- und Software, wollen zusammen lernen und uns gegenseitig etwas beibringen. Oder wir hören und halten Vorträge zu diversen Themen (z.B. Open Source oder Feminismus) und diskutieren sie im Anschluss. Zudem nutzen wir die Zeit zum Austausch und zur Vernetzung.
-
-Komm einfach mal vorbei in den Räumlichkeiten des CCC-HH
-<a href='http://www.hamburg.ccc.de/'>http://www.hamburg.ccc.de/</a>
