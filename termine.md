@@ -6,14 +6,19 @@ permalink: /termine/
 
 
 #In Arbeit:
-* Vernetzungstreffen im Oktober oder November
-* "Debugging the Gender Gab" im Kino?
+* Komm vorbei und gestalte mit was in der nächsten Zeit passieren soll
+
+### Themen 2018 u.a.
+* Hardwarebastelei: Feinstaubsensor
+* Haecksen-Geekend
 
 #### Themen 2017 u.a.
+* Vernetzungstreffen im Herbst
+* Film-Vorführung: Debugging the Gender Gap
 * Vernetzungstrefen der in Hamburg ansässigen Gruppen von an Technik interessierten Frauen\* im Mai
 
 #### Themen 2016 u.a.
-* 21. April -  Big Data (commons) [Vortrag zum Thema Big Data]({{root_url}} /2016/04/21/big-data.html)
+* am 21. April -  Big Data (commons) [Vortrag zum Thema Big Data]({{root_url}} /2016/04/21/big-data.html)
 * Künstliche Intelligenz
 * Programmierübungen zur Mustererkennung und Regression in einer Skriptsprache (33c3)
 * Feminismus - eine Kurzusammenfassung und anschliessende Diskussion
@@ -27,7 +32,7 @@ Zeiseweg 9
 22767 Hamburg
 
 ### Wann ist Geekfem?
-Geekfem findet bei Bedarf statt. Man findet uns häufiger am dritten Dienstag des Monats im CCCHH ab 19 Uhr. Abweichende und zusätzliche Treffen diskutieren wir vor allem auf unserer Mailingliste geekfem@hamburg.ccc.de. Meld dich dort an, dann bist du auf dem Laufenden.
+Geekfem findet bei Bedarf statt. Man findet uns häufiger am dritten Dienstag des Monats im CCCHH ab 19 Uhr. Frag aber gerne vorher auf unserer Mailingliste nach, ob auch jemand da ist. Abweichende und zusätzliche Treffen diskutieren wir vor allem auf unserer Mailingliste geekfem@hamburg.ccc.de. Meld dich dort an, dann bist du auf dem Laufenden. Dazu reicht es eine leere Mail an geekfem-subscribe@hamburg.ccc.de zu schreiben.
 
-Einfach mal vorbei in den Räumlichkeiten des CCC-HH
+Komm einfach mal vorbei in den Räumlichkeiten des CCC-HH
 [http://www.hamburg.ccc.de/](http://www.hamburg.ccc.de/)
