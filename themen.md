@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "Termine"
-permalink: /termine/
+title: "Themen"
+permalink: /themen/
 ---
 
 
 #In Arbeit:
 * Komm vorbei und gestalte mit was in der nächsten Zeit passieren soll
 
-### Themen 2018 u.a.
+#### Themen 2018 u.a.
 * Hardwarebastelei: Feinstaubsensor
 * Haecksen-Geekend
 
