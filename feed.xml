@@ -6,9 +6,35 @@
 </description>
     <link>http://geekfem.net/</link>
     <atom:link href="http://geekfem.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Sep 2018 11:14:18 +0200</pubDate>
-    <lastBuildDate>Sun, 16 Sep 2018 11:14:18 +0200</lastBuildDate>
+    <pubDate>Thu, 25 Oct 2018 19:03:44 +0200</pubDate>
+    <lastBuildDate>Thu, 25 Oct 2018 19:03:44 +0200</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Treffen Am 01.11.2018</title>
+        <description>&lt;p&gt;Das nächste Treffen findet am Donnerstag den 01.11.2018 in den Räumen
+des CCCHH (Zeiseweg 9) ab 19 Uhr statt.&lt;/p&gt;
+
+&lt;p&gt;Diesmal wollen wir unser Feinstaubsensorprojekt abschließen. Da der
+Congress ebenfalls vor der Tür steht werden wir auch wieder viel dafür
+vorbereiten und organisieren. Es sind alle willkommen mitzumachen oder
+einfach weiter an ihrem Feinstaubsensorprojekt (oder auch anderen
+Projekten) zu arbeiten.&lt;/p&gt;
+
+&lt;p&gt;Also kommt zahlreich!&lt;/p&gt;
+
+&lt;p&gt;Ihr wollt mitmachen, könnt aber nicht zum Treffen kommen? Subscribt
+euch auf unsere Mailingliste und bleibt auf dem Laufenden: eine leere
+Mail an geekfem-subscribe@hamburg.ccc.de genügt.&lt;/p&gt;
+
+&lt;p&gt;Wir freuen uns auf euch :)&lt;/p&gt;
+</description>
+        <pubDate>Sun, 21 Oct 2018 11:43:53 +0200</pubDate>
+        <link>http://geekfem.net/2018/10/21/treffen-am-01-11-2018.html</link>
+        <guid isPermaLink="true">http://geekfem.net/2018/10/21/treffen-am-01-11-2018.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Treffen Am 11.10.2018</title>
@@ -205,28 +231,6 @@ Big Data ist ein Thema, dass in den letzten Jahren für Regierungen, Unternehmen
         <pubDate>Thu, 14 Jan 2016 16:34:54 +0100</pubDate>
         <link>http://geekfem.net/2016/01/14/vortrag-dna-als-speichermedium.html</link>
         <guid isPermaLink="true">http://geekfem.net/2016/01/14/vortrag-dna-als-speichermedium.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Arduino Basics</title>
-        <description>&lt;p&gt;Nach kurzem Brainstorming beim “Stammtisch” war klar - Es gibt viele Themen, die wir gemeinsam vertiefen, erarbeiten oder einfach nur bequatschen wollen. Ein erstes Thema, das dabei aufkam war “Grundlagen im Basteln mit Hardware” - und so haben wir uns am 18.06. kurzerhand zum Austausch von Erfahrungen mit Arduinos getroffen.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/arduino-group_small.jpg&quot; alt=&quot;Arduino Workshop&quot; title=&quot;Arduino Workshop&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Zwei von uns haben dabei eine kleine theoretische Einfuehrung gegeben, sodass wir uns unabhaengig von Vorkenntnissen ins Basteln stuerzten konnten.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/arduino-basics_small.jpg&quot; alt=&quot;Arduino Basics an der Tafel&quot; title=&quot;Arduino Basics an der Tafel&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/arduino_small.jpg&quot; alt=&quot;Arduino Hardware&quot; title=&quot;Arduino Hardware&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Wir freuen uns besonders, dass so viele Gesichter aus ganz unterschiedlichen Zusammenhaengen da waren. So hat der erste Geekfem “Themenabend” dank eurer Energie und Offenheit total viel Spass gemacht!
-In diesem Sinne - auf zum naechsten “Themenabend” - Ideen und Beteiligung sind wie immer mehr als wilkommen.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 05 Jul 2015 00:00:00 +0200</pubDate>
-        <link>http://geekfem.net/2015/07/05/arduino-basics.html</link>
-        <guid isPermaLink="true">http://geekfem.net/2015/07/05/arduino-basics.html</guid>
         
         
       </item>
