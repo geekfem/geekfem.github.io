@@ -4,11 +4,13 @@ title: "Themen"
 permalink: /themen/
 ---
 
+Komm vorbei und gestalte mit was in der nächsten Zeit passieren soll!
 
-#In Arbeit:
-* Komm vorbei und gestalte mit was in der nächsten Zeit passieren soll
+#### Vorschläge für 2019
+* Python-Programmierkurs für Anfänger
 
 #### Themen 2018 u.a.
+* Planung für diverse Aktionen für den 35C3
 * Hardwarebastelei: Feinstaubsensor
 * Haecksen-Geekend
 
