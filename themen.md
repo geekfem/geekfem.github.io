@@ -6,7 +6,7 @@ permalink: /themen/
 
 Komm vorbei und gestalte mit was in der nächsten Zeit passieren soll!
 
-#### Vorschläge für 2019
+#### aktuelle Themen
 * Python-Programmierkurs für Anfänger
 
 #### Themen 2018 u.a.
