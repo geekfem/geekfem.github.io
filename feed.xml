@@ -6,9 +6,49 @@
 </description>
     <link>http://geekfem.net/</link>
     <atom:link href="http://geekfem.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 16 Jan 2019 17:35:19 +0100</pubDate>
-    <lastBuildDate>Wed, 16 Jan 2019 17:35:19 +0100</lastBuildDate>
+    <pubDate>Wed, 20 Feb 2019 17:15:47 +0100</pubDate>
+    <lastBuildDate>Wed, 20 Feb 2019 17:15:47 +0100</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Gastvortrag Am 28.02.2019</title>
+        <description>&lt;h3 id=&quot;achtung-dieses-treffen-findet-an-einem-anderen-ort-statt&quot;&gt;ACHTUNG: DIESES TREFFEN FINDET AN EINEM ANDEREN ORT STATT&lt;/h3&gt;
+
+&lt;p&gt;Das Treffen im Februar findet am Donnerstag den 28.02.2019 ab 19 Uhr
+in den Räumen von inoio (Kampstraße 15 in der Schanze bei inoio
+klingeln) statt, da die Räume des CCCHH wegen des Umbaus und der
+Vergrößerung des Z9 bis auf weiteres geschlossen sind.&lt;/p&gt;
+
+&lt;p&gt;Karolin Varer wird uns an diesem Treffen besuchen und eine Vortrag
+bzw. Workshop geben mit dem Thema:&lt;/p&gt;
+
+&lt;h4 id=&quot;bau-einer-steuerung-für-hochleistungs-leds-hardware-design--programmierung&quot;&gt;Bau einer Steuerung für Hochleistungs-LEDs: Hardware-Design &amp;amp; Programmierung&lt;/h4&gt;
+
+&lt;p&gt;Es gibt eine kleine Einführung in KiCad und Tipps wie man an das
+design Analoger Schaltungen herangehen kann. Wo zum Beispiel bekommt
+man eigentlich Bauteile her und was für Werkzeug braucht man. Es
+werden verschiedene Bauteile (Relais, Optokoppler, Mosfet, SMD vs
+Durcksteck) vorgestellt.&lt;/p&gt;
+
+&lt;p&gt;In der Steuerungsschaltung werden verschiedene Techniken gezeigt wie
+man mit hohen Spannungen und Strömen arbeiten kann.&lt;/p&gt;
+
+&lt;p&gt;Auf der Softwareseite werden Mikrocontroller vorgestellt die es
+einfach machen WLAN zu benutzen und es wird erklärt wie man mit
+Software LEDs dimmen kann.&lt;/p&gt;
+
+&lt;p&gt;Ihr wollt mitmachen, könnt aber nicht zum Treffen kommen? Subscribt
+euch auf unsere Mailingliste und bleibt auf dem Laufenden: eine leere
+Mail an geekfem-subscribe@hamburg.ccc.de genügt.&lt;/p&gt;
+
+&lt;p&gt;Wir freuen uns auf euch :)&lt;/p&gt;
+</description>
+        <pubDate>Tue, 19 Feb 2019 21:32:02 +0100</pubDate>
+        <link>http://geekfem.net/2019/02/19/gastvortrag-am-28-02-2019.html</link>
+        <guid isPermaLink="true">http://geekfem.net/2019/02/19/gastvortrag-am-28-02-2019.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Erstes Treffen in 2019 Am 17.01</title>
@@ -234,27 +274,6 @@ Weitere Einblicke gibt der &lt;a href=&quot;https://www.dropbox.com/s/f2an3jj0d6
         <pubDate>Sun, 24 Sep 2017 14:18:37 +0200</pubDate>
         <link>http://geekfem.net/2017/09/24/debugging-the-gender-gap.html</link>
         <guid isPermaLink="true">http://geekfem.net/2017/09/24/debugging-the-gender-gap.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Geekfem - Meet &amp; Geek (19. Mai 18:00): Programm</title>
-        <description>&lt;p&gt;Wie angekündigt gibt es neben der Chance zur Vernetzung auch drei Vorträge von je 5 Minuten zu hören:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Bio-, Genom- Chemieinformatik: Informatik in den Lebenswissenschaften&lt;/li&gt;
-  &lt;li&gt;Rapid Prototyping in Axure&lt;/li&gt;
-  &lt;li&gt;dein Thema?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Es gab den Wunsch nach einer Minicryptoparty. Möchtest &lt;em&gt;du&lt;/em&gt; diesen Kurzvortrag vielleicht machen? Dann schick uns eine Mail.&lt;/p&gt;
-
-&lt;p&gt;Bist du gerade auf das Treffen gestoßen, wurdest von uns aber nicht persönlich eingeladen? Egal! Wir freuen uns auf dich! Besonders nett wäre es, wenn du uns kurz eine Mail bzgl. deines Kommens an geekfem@hamburg.ccc.de schickst. Dann garantieren wir genügend Kekse.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 06 May 2017 19:53:36 +0200</pubDate>
-        <link>http://geekfem.net/2017/05/06/geekfem-meet-and-geek-19-mai-18-00-programm.html</link>
-        <guid isPermaLink="true">http://geekfem.net/2017/05/06/geekfem-meet-and-geek-19-mai-18-00-programm.html</guid>
         
         
       </item>
