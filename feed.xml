@@ -6,9 +6,143 @@
 </description>
     <link>http://geekfem.net/</link>
     <atom:link href="http://geekfem.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Feb 2019 17:15:47 +0100</pubDate>
-    <lastBuildDate>Wed, 20 Feb 2019 17:15:47 +0100</lastBuildDate>
+    <pubDate>Mon, 25 Mar 2019 22:04:36 +0100</pubDate>
+    <lastBuildDate>Mon, 25 Mar 2019 22:04:36 +0100</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Projekt '18: Mobiler Feinstaubsensor Selbst Bauen</title>
+        <description>&lt;p&gt;Geekfem hat sich in 2018 das Projekt “mobiler Feinstaubsensor bauen” vorgenommen.
+Die Hälfte der Geekfemmerinnen konnte programmieren, die Hälft nicht. 
+Nur wenige von uns hatten vorher etwas mit Hardware gemacht.
+Das Ergebnis könnt ihr als Vortrag auf der Bits und Bäume 2018 &lt;a href=&quot;https://media.ccc.de/v/bub2018-153-feinstaubsensor_selbstgebaut&quot;&gt;anschauen&lt;/a&gt; und die Folien &lt;a href=&quot;/other_uploads/Bub_final.pdf&quot;&gt;lesen&lt;/a&gt;
+Weiterführende Links:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.arduino.cc&quot;&gt;Arduino Entwicklungsumgebung&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/espressif/arduino-esp32&quot;&gt;ESP32 Kern für die Arduino IDE installieren&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.arduinolibraries.info/architectures/esp32&quot;&gt;Verfügbare Libs für den ESP32&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/sleiner/SDS011&quot;&gt;gepatchte SDS011 Lib&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Der Code folgt unten. Hier fehlt noch die Beachtung der Luftfeuchtigkeit bei der Berechnung der Feinstaubbelastung. Diese kann man sich aber aus den gängigen Code-Bibliotheken herausziehen.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*************************************************************
+Blynk library is licensed under MIT license
+  	This example code is in public domain.
+
+ *************************************************************
+  This example runs directly on ESP32 chip.
+
+  Note: This requires ESP32 support package:
+    https://github.com/espressif/arduino-esp32
+
+  Please be sure to select the right ESP32 module
+  in the Tools -&amp;gt; Board menu!
+
+  Change WiFi ssid, pass, and Blynk auth token to run 
+  Feel free to apply it to any other example. It's simple!
+ *************************************************************/
+
+/* Comment this out to disable prints and save space */
+#define BLYNK_PRINT Serial
+
+
+#include &amp;lt;WiFi.h&amp;gt;
+#include &amp;lt;WiFiClient.h&amp;gt;
+#include &amp;lt;BlynkSimpleEsp32.h&amp;gt;
+#include &amp;lt;DHT.h&amp;gt;
+#include &amp;lt;SDS011.h&amp;gt;
+
+// You should get Auth Token in the Blynk App.
+// Go to the Project Settings (nut icon).
+char auth[] = &quot;&quot;;
+
+// Your WiFi credentials.
+// Set password to &quot;&quot; for open networks.
+char ssid[] = &quot;&quot;;
+char pass[] = &quot;&quot;;
+#define DHTPIN 14          // What digital pin we're connected to
+
+// Uncomment whatever type you're using!
+#define DHTTYPE DHT22   // DHT 22, AM2302, AM2321
+
+DHT dht(DHTPIN, DHTTYPE);
+BlynkTimer timer;
+//SDS011
+float p10, p25;
+int errorflag;
+
+HardwareSerial sdsSerial(2); // use Serial 2: RX pin:16, TX pin:17
+SDS011 my_sds;
+
+// This function sends Arduino's up time every second to Virtual Pin (5).
+// In the app, Widget's reading frequency should be set to PUSH. This means
+// that you define how often to send data to Blynk App.
+
+void readSDS()
+{
+  errorflag = my_sds.read(&amp;amp;p25, &amp;amp;p10);
+  if (errorflag) {
+    Serial.println(&quot;Failed to read from SDS sensor!&quot;);
+    return;
+  }
+  Serial.println(&quot;P2.5: &quot; + String(p25));
+  Serial.println(&quot;P10:  &quot; + String(p10));
+  Blynk.virtualWrite(V7, p25);
+  Blynk.virtualWrite(V8, p10);
+}
+
+void readDHT()
+{
+  float h = dht.readHumidity();
+  float t = dht.readTemperature(); // or dht.readTemperature(true) for Fahrenheit
+
+  if (isnan(h) || isnan(t)) {
+    Serial.println(&quot;Failed to read from DHT sensor!&quot;);
+    return;
+  }
+  Serial.println(t);
+  
+  Blynk.virtualWrite(V5, h);
+  Blynk.virtualWrite(V6, t); 
+}
+
+void sendSensor()
+{
+  readDHT();
+  readSDS();
+}
+
+void setup()
+{
+  // Debug console
+  Serial.begin(115200);
+
+  Blynk.begin(auth, ssid, pass, IPAddress(192,168,178,36),8080);
+
+  dht.begin();
+  sdsSerial.begin(9600);
+  my_sds.begin(&amp;amp;sdsSerial);
+
+  // Setup a function to be called every second
+  timer.setInterval(10000L, sendSensor);
+}
+
+void loop()
+{
+  Blynk.run();
+  timer.run();
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Mon, 25 Mar 2019 21:27:52 +0100</pubDate>
+        <link>http://geekfem.net/2019/03/25/projekt-18-mobiler-feinstaubsensor-selbst-bauen.html</link>
+        <guid isPermaLink="true">http://geekfem.net/2019/03/25/projekt-18-mobiler-feinstaubsensor-selbst-bauen.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Gastvortrag Am 28.02.2019</title>
@@ -243,37 +377,6 @@ und eine Congress Nachlese machen.&lt;/p&gt;
         <pubDate>Fri, 16 Feb 2018 21:42:47 +0100</pubDate>
         <link>http://geekfem.net/2018/02/16/geekfem-treffen-20-2-18.html</link>
         <guid isPermaLink="true">http://geekfem.net/2018/02/16/geekfem-treffen-20-2-18.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Film: Debugging the Gender Gap (26.10 19:30)</title>
-        <description>&lt;p&gt;Geekfem und der Hamburger Chaos Computer Club laden euch herzlich zur Filmvorführung von &lt;a href=&quot;http://www.codedoc.co/&quot;&gt;“CODE - Debugging the Gender Gap”&lt;/a&gt; am 26. Oktober 2017 um 19:30 ins Lichtmess-Kino ein. Wir zeigen den Film in englischer Originalfassung.
-&lt;!-- more --&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;„ We could be not only consumers but … producers?!“&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;„This is our city [], our community[] our code.“&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Mit Hilfe von Interviews untersucht der Film, wie es dazu kommen konnte, dass die heutige Tech-Welt ein männlich/weiß geprägtes Berufsfeld ist. Denn der Start war ein anderer: Nicht zuletzt Filme wie “Bletchley Park” und “Hidden Figures” zeigen, wie wichtig Frauen und Angehörige von gesellschaftlich minoritären Gruppen von Beginn der Computerisierung bis  weit in die Achtziger Jahre des letzten Jahrhunderts für den technischen Fortschritt waren und sind. Alan Turing war schwul, die Enigma wurde von rechnenden Frauen entschlüsselt, die Berechnungen für den ersten Mondflug wurden von Frauen gemacht. Trotzdem finden sich heutzutage fast nur weiße, heterosexuelle Cis-Männer an den Schaltstellen der IT-Welt.&lt;/p&gt;
-
-&lt;p&gt;“CODE - Debugging the Gender Gap“ lässt VertreterInnen der IT-Branche ebenso wie WissenschaftlerInnen, PsychologInnen und LehrerInnen zu Wort kommen. Ergänzt wird dies durch inspirierende Interviews mit Frauen, die sich für die IT entschieden haben. Der Film fordert dazu auf, tradierte Denkweisen ebenso wie die Strukturen des Bildungssystems und  der Start-up-Kultur zu hinterfragen und lädt dazu ein, den eigenen Blick auf die Tech-Welt zu verändern.
-Weitere Einblicke gibt der &lt;a href=&quot;https://www.dropbox.com/s/f2an3jj0d6rue2g/CODE_Trailer_v13_Stereo_Web_h264.mov?n=12275723&quot;&gt;Trailer&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Der Eintritt zum Film ist frei, zur Deckung der Kosten würden wir uns allerdings über eine Spende von 8 € freuen.* Im Anschluss an das Screening findet eine Feedbackrunde statt.&lt;/p&gt;
-
-&lt;p&gt;Wir freuen uns auf euch!&lt;/p&gt;
-
-&lt;p&gt;*Die Gesamtkosten der Filmvorführung belaufen sich auf 600€, Bei 88 Plätzen ergibt sich eine kostendeckende Spende pro Platz von 6.80. Um auch Liquiditätsschwachen den Besuch zu ermöglichen und weitere Aktionen zu unterstützen, freuen wir uns über Spenden ab 8 Euro aufwärts.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 24 Sep 2017 14:18:37 +0200</pubDate>
-        <link>http://geekfem.net/2017/09/24/debugging-the-gender-gap.html</link>
-        <guid isPermaLink="true">http://geekfem.net/2017/09/24/debugging-the-gender-gap.html</guid>
         
         
       </item>
