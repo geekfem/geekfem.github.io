@@ -7,7 +7,14 @@ permalink: /themen/
 Komm vorbei und gestalte mit was in der nächsten Zeit passieren soll!
 
 #### aktuelle Themen
+* Beteiligung am Easterhegg 2020 in Hamburg
+* Couchtisch mit Touchscreen entwerfen und bauen
+
+#### Themen 2019 u.a.
+* Beteiligung an der Haecksen-Assembly auf dem 36C3
 * Python-Programmierkurs für Anfänger
+* Gründung von einem feministischer Buchclub
+* 2 Haecksen-Geekends
 
 #### Themen 2018 u.a.
 * Planung für diverse Aktionen für den 35C3
