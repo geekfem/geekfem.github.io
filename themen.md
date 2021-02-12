@@ -7,8 +7,13 @@ permalink: /themen/
 Komm vorbei und gestalte mit was in der nächsten Zeit passieren soll!
 
 #### aktuelle Themen
+* Python-Programmierkurs für Anfänger
+
+#### Themen 2020 u.a.
 * Beteiligung am Easterhegg 2020 in Hamburg
 * Couchtisch mit Touchscreen entwerfen und bauen
+* CAD-Workshop
+* Python-Programmierkurs für Anfänger
 
 #### Themen 2019 u.a.
 * Beteiligung an der Haecksen-Assembly auf dem 36C3
