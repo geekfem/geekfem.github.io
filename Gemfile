@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
-ruby '2.5.5'
+ruby '2.7.2'
 
 gem 'octopress', '~> 3.0.11'
