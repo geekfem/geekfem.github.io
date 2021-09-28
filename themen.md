@@ -7,17 +7,17 @@ permalink: /themen/
 Komm vorbei und gestalte mit was in der nächsten Zeit passieren soll!
 
 #### aktuelle Themen
-* Python-Programmierkurs für Anfänger
+* Python-Programmierkurs für Anfängerinnen
 
 #### Themen 2020 u.a.
 * Beteiligung am Easterhegg 2020 in Hamburg
 * Couchtisch mit Touchscreen entwerfen und bauen
 * CAD-Workshop
-* Python-Programmierkurs für Anfänger
+* Python-Programmierkurs für Anfängerinnen
 
 #### Themen 2019 u.a.
 * Beteiligung an der Haecksen-Assembly auf dem 36C3
-* Python-Programmierkurs für Anfänger
+* Python-Programmierkurs für Anfängerinnen
 * Gründung von einem feministischer Buchclub
 * 2 Haecksen-Geekends
 
