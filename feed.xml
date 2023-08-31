@@ -6,9 +6,35 @@
 </description>
     <link>http://geekfem.net/</link>
     <atom:link href="http://geekfem.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 28 Sep 2021 16:00:29 +0200</pubDate>
-    <lastBuildDate>Tue, 28 Sep 2021 16:00:29 +0200</lastBuildDate>
+    <pubDate>Thu, 31 Aug 2023 16:38:47 +0200</pubDate>
+    <lastBuildDate>Thu, 31 Aug 2023 16:38:47 +0200</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>Treffen Am 21.09.2023</title>
+        <description>&lt;p&gt;Wir wollen uns endlich wieder vor Ort treffen, um zu sozialisieren und
+neue Dinge auszuhecken.&lt;/p&gt;
+
+&lt;p&gt;Das nächste Treffen findet am 21.09.2023 in den Räumen des CCCHH
+(Zeiseweg 9) ab 19 Uhr statt. Für zwei Stunden werden die Räumlichkeiten
+nur von Geekfem genutzt. Damit alle sicher sein können, haben wir
+Maskenpflicht. Essen können wir draußen im Hof.&lt;/p&gt;
+
+&lt;p&gt;Diesesmal steht bis jetzt nichts konkretes auf unserer Themenliste. Wir
+wollen uns treffen um uns über Projekte, Aktivitäten und Veranstaltungen
+auszutauschen, sowie einfach mal zu schnacken. In der kommenden Zeit
+wollen wir uns wieder regelmäßig – am besten monatlich – treffen.&lt;/p&gt;
+
+&lt;p&gt;Ihr wollt mitmachen, könnt aber nicht zum Treffen kommen? Subscribt euch
+auf unsere Mailingliste und bleibt auf dem Laufenden: eine leere Mail an
+geekfem-subscribe@hamburg.ccc.de genügt.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 31 Aug 2023 16:21:55 +0200</pubDate>
+        <link>http://geekfem.net/2023/08/31/treffen-am-21-09-2023.html</link>
+        <guid isPermaLink="true">http://geekfem.net/2023/08/31/treffen-am-21-09-2023.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Online Treffen Am 20.02.2021</title>
@@ -530,46 +556,6 @@ void loop()
         <pubDate>Mon, 25 Mar 2019 21:27:52 +0100</pubDate>
         <link>http://geekfem.net/2019/03/25/projekt-18-mobiler-feinstaubsensor-selbst-bauen.html</link>
         <guid isPermaLink="true">http://geekfem.net/2019/03/25/projekt-18-mobiler-feinstaubsensor-selbst-bauen.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Gastvortrag Am 28.02.2019</title>
-        <description>&lt;h3 id=&quot;achtung-dieses-treffen-findet-an-einem-anderen-ort-statt&quot;&gt;ACHTUNG: DIESES TREFFEN FINDET AN EINEM ANDEREN ORT STATT&lt;/h3&gt;
-
-&lt;p&gt;Das Treffen im Februar findet am Donnerstag den 28.02.2019 ab 19 Uhr
-in den Räumen von inoio (Kampstraße 15 in der Schanze bei inoio
-klingeln) statt, da die Räume des CCCHH wegen des Umbaus und der
-Vergrößerung des Z9 bis auf weiteres geschlossen sind.&lt;/p&gt;
-
-&lt;p&gt;Karolin Varer wird uns an diesem Treffen besuchen und eine Vortrag
-bzw. Workshop geben mit dem Thema:&lt;/p&gt;
-
-&lt;h4 id=&quot;bau-einer-steuerung-für-hochleistungs-leds-hardware-design--programmierung&quot;&gt;Bau einer Steuerung für Hochleistungs-LEDs: Hardware-Design &amp;amp; Programmierung&lt;/h4&gt;
-
-&lt;p&gt;Es gibt eine kleine Einführung in KiCad und Tipps wie man an das
-design Analoger Schaltungen herangehen kann. Wo zum Beispiel bekommt
-man eigentlich Bauteile her und was für Werkzeug braucht man. Es
-werden verschiedene Bauteile (Relais, Optokoppler, Mosfet, SMD vs
-Durcksteck) vorgestellt.&lt;/p&gt;
-
-&lt;p&gt;In der Steuerungsschaltung werden verschiedene Techniken gezeigt wie
-man mit hohen Spannungen und Strömen arbeiten kann.&lt;/p&gt;
-
-&lt;p&gt;Auf der Softwareseite werden Mikrocontroller vorgestellt die es
-einfach machen WLAN zu benutzen und es wird erklärt wie man mit
-Software LEDs dimmen kann.&lt;/p&gt;
-
-&lt;p&gt;Ihr wollt mitmachen, könnt aber nicht zum Treffen kommen? Subscribt
-euch auf unsere Mailingliste und bleibt auf dem Laufenden: eine leere
-Mail an geekfem-subscribe@hamburg.ccc.de genügt.&lt;/p&gt;
-
-&lt;p&gt;Wir freuen uns auf euch :)&lt;/p&gt;
-</description>
-        <pubDate>Tue, 19 Feb 2019 21:32:02 +0100</pubDate>
-        <link>http://geekfem.net/2019/02/19/gastvortrag-am-28-02-2019.html</link>
-        <guid isPermaLink="true">http://geekfem.net/2019/02/19/gastvortrag-am-28-02-2019.html</guid>
         
         
       </item>
