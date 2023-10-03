@@ -6,9 +6,35 @@
 </description>
     <link>http://geekfem.net/</link>
     <atom:link href="http://geekfem.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 31 Aug 2023 16:38:47 +0200</pubDate>
-    <lastBuildDate>Thu, 31 Aug 2023 16:38:47 +0200</lastBuildDate>
+    <pubDate>Tue, 03 Oct 2023 19:43:39 +0200</pubDate>
+    <lastBuildDate>Tue, 03 Oct 2023 19:43:39 +0200</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>Treffen Am 19.10.2023</title>
+        <description>&lt;p&gt;Wir haben uns mit circa 15 Personen am 21.09.2023 getroffen einander
+kennengelernt und Pläne geschmiedet. Wir haben über unsere
+Organisationsform gesprochen und darüber, welche Projekte wir in den
+kommenden Monaten angehen wollen.&lt;/p&gt;
+
+&lt;p&gt;Unser nächstes Treffen ist am 19.10. um 19 Uhr, wieder im Clubraum des
+CCCHH; diesmal wollen wir die 3D-Drucker ausprobieren und Newtonwars
+spielen – und Weiteres!
+Es wird wieder Maskenpflicht herrschen.&lt;/p&gt;
+
+&lt;p&gt;Interessierte FINTA Personen, die bisher noch bei keinem Treffen waren,
+sind herzlich willkommen.&lt;/p&gt;
+
+&lt;p&gt;Ihr wollt mitmachen, könnt aber nicht zum Treffen kommen? Subscribt
+euch auf unsere Mailingliste und bleibt auf dem Laufenden: eine leere
+Mail an geekfem-subscribe@hamburg.ccc.de genügt.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 03 Oct 2023 19:37:24 +0200</pubDate>
+        <link>http://geekfem.net/2023/10/03/treffen-am-19-10-2023.html</link>
+        <guid isPermaLink="true">http://geekfem.net/2023/10/03/treffen-am-19-10-2023.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Treffen Am 21.09.2023</title>
@@ -422,140 +448,6 @@ Mail an geekfem-subscribe@hamburg.ccc.de genügt.&lt;/p&gt;
         <pubDate>Wed, 27 Mar 2019 16:12:10 +0100</pubDate>
         <link>http://geekfem.net/2019/03/27/treffen-27-03-2019.html</link>
         <guid isPermaLink="true">http://geekfem.net/2019/03/27/treffen-27-03-2019.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Projekt '18: Mobiler Feinstaubsensor Selbst Bauen</title>
-        <description>&lt;p&gt;Geekfem hat sich in 2018 das Projekt “mobiler Feinstaubsensor bauen” vorgenommen.
-Die Hälfte der Geekfemmerinnen konnte programmieren, die Hälft nicht. 
-Nur wenige von uns hatten vorher etwas mit Hardware gemacht.
-Das Ergebnis könnt ihr als Vortrag auf der Bits und Bäume 2018 &lt;a href=&quot;https://media.ccc.de/v/bub2018-153-feinstaubsensor_selbstgebaut&quot;&gt;anschauen&lt;/a&gt; und die Folien &lt;a href=&quot;/other_uploads/Bub_final.pdf&quot;&gt;lesen&lt;/a&gt;
-Weiterführende Links:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.arduino.cc&quot;&gt;Arduino Entwicklungsumgebung&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/espressif/arduino-esp32&quot;&gt;ESP32 Kern für die Arduino IDE installieren&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.arduinolibraries.info/architectures/esp32&quot;&gt;Verfügbare Libs für den ESP32&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/sleiner/SDS011&quot;&gt;gepatchte SDS011 Lib&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Der Code folgt unten. Hier fehlt noch die Beachtung der Luftfeuchtigkeit bei der Berechnung der Feinstaubbelastung. Diese kann man sich aber aus den gängigen Code-Bibliotheken herausziehen.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*************************************************************
-Blynk library is licensed under MIT license
-  	This example code is in public domain.
-
- *************************************************************
-  This example runs directly on ESP32 chip.
-
-  Note: This requires ESP32 support package:
-    https://github.com/espressif/arduino-esp32
-
-  Please be sure to select the right ESP32 module
-  in the Tools -&amp;gt; Board menu!
-
-  Change WiFi ssid, pass, and Blynk auth token to run 
-  Feel free to apply it to any other example. It's simple!
- *************************************************************/
-
-/* Comment this out to disable prints and save space */
-#define BLYNK_PRINT Serial
-
-
-#include &amp;lt;WiFi.h&amp;gt;
-#include &amp;lt;WiFiClient.h&amp;gt;
-#include &amp;lt;BlynkSimpleEsp32.h&amp;gt;
-#include &amp;lt;DHT.h&amp;gt;
-#include &amp;lt;SDS011.h&amp;gt;
-
-// You should get Auth Token in the Blynk App.
-// Go to the Project Settings (nut icon).
-char auth[] = &quot;&quot;;
-
-// Your WiFi credentials.
-// Set password to &quot;&quot; for open networks.
-char ssid[] = &quot;&quot;;
-char pass[] = &quot;&quot;;
-#define DHTPIN 14          // What digital pin we're connected to
-
-// Uncomment whatever type you're using!
-#define DHTTYPE DHT22   // DHT 22, AM2302, AM2321
-
-DHT dht(DHTPIN, DHTTYPE);
-BlynkTimer timer;
-//SDS011
-float p10, p25;
-int errorflag;
-
-HardwareSerial sdsSerial(2); // use Serial 2: RX pin:16, TX pin:17
-SDS011 my_sds;
-
-// This function sends Arduino's up time every second to Virtual Pin (5).
-// In the app, Widget's reading frequency should be set to PUSH. This means
-// that you define how often to send data to Blynk App.
-
-void readSDS()
-{
-  errorflag = my_sds.read(&amp;amp;p25, &amp;amp;p10);
-  if (errorflag) {
-    Serial.println(&quot;Failed to read from SDS sensor!&quot;);
-    return;
-  }
-  Serial.println(&quot;P2.5: &quot; + String(p25));
-  Serial.println(&quot;P10:  &quot; + String(p10));
-  Blynk.virtualWrite(V7, p25);
-  Blynk.virtualWrite(V8, p10);
-}
-
-void readDHT()
-{
-  float h = dht.readHumidity();
-  float t = dht.readTemperature(); // or dht.readTemperature(true) for Fahrenheit
-
-  if (isnan(h) || isnan(t)) {
-    Serial.println(&quot;Failed to read from DHT sensor!&quot;);
-    return;
-  }
-  Serial.println(t);
-  
-  Blynk.virtualWrite(V5, h);
-  Blynk.virtualWrite(V6, t); 
-}
-
-void sendSensor()
-{
-  readDHT();
-  readSDS();
-}
-
-void setup()
-{
-  // Debug console
-  Serial.begin(115200);
-
-  Blynk.begin(auth, ssid, pass, IPAddress(192,168,178,36),8080);
-
-  dht.begin();
-  sdsSerial.begin(9600);
-  my_sds.begin(&amp;amp;sdsSerial);
-
-  // Setup a function to be called every second
-  timer.setInterval(10000L, sendSensor);
-}
-
-void loop()
-{
-  Blynk.run();
-  timer.run();
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-        <pubDate>Mon, 25 Mar 2019 21:27:52 +0100</pubDate>
-        <link>http://geekfem.net/2019/03/25/projekt-18-mobiler-feinstaubsensor-selbst-bauen.html</link>
-        <guid isPermaLink="true">http://geekfem.net/2019/03/25/projekt-18-mobiler-feinstaubsensor-selbst-bauen.html</guid>
         
         
       </item>
