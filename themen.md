@@ -46,7 +46,7 @@ Zeiseweg 9
 22767 Hamburg
 
 ### Wann ist Geekfem?
-Geekfem findet bei Bedarf statt. Man findet uns häufiger am dritten Dienstag des Monats im CCCHH ab 19 Uhr. Frag aber gerne vorher auf unserer Mailingliste nach, ob auch jemand da ist. Abweichende und zusätzliche Treffen diskutieren wir vor allem auf unserer Mailingliste geekfem@hamburg.ccc.de. Meld dich dort an, dann bist du auf dem Laufenden. Dazu reicht es eine leere Mail an geekfem-subscribe@hamburg.ccc.de zu schreiben.
+Geekfem findet bei Bedarf statt. Man findet uns häufiger am dritten Dienstag des Monats im CCCHH ab 19 Uhr. Frag aber gerne vorher auf unserer Mailingliste nach, ob auch jemand da ist. Abweichende und zusätzliche Treffen diskutieren wir vor allem auf unserer Mailingliste geekfem@lists.hamburg.ccc.de. Meld dich dort an, dann bist du auf dem Laufenden. Dazu reicht es eine leere Mail an geekfem-subscribe@lists.hamburg.ccc.de zu schreiben.
 
 Komm einfach mal vorbei in den Räumlichkeiten des CCC-HH
 [http://www.hamburg.ccc.de/](http://www.hamburg.ccc.de/)
