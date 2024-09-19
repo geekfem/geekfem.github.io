@@ -1,0 +1,12 @@
+{{ $imagePos := resources.Get "logos/geekfem_logo_positiv.svg" }}
+{{ $imageNeg := resources.Get "logos/geekfem_logo_negativ.svg" }}
+
+<a href="{{ .Site.BaseURL | relLangURL }}">
+    <picture id="header-image">
+        <source srcset="{{ $imagePos }}" media="(prefers-color-scheme: light)">
+        <source srcset="{{ $imageNeg }}" media="(prefers-color-scheme: dark)">
+        <img src="{{ $imagePos }}" 
+            alt="Geekfem logo" 
+            aria-details="A serif rich font spelling the name 'Geekfem'. The letter G modelled to resemble an owl looking at the reader.">
+    </picture>
+</a>
