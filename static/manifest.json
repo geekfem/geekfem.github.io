@@ -1,0 +1,30 @@
+{
+    "short_name": "Geekfem",
+    "name": "Geekfem – FLINTA Hackers in Hamburg",
+    "start_url": "/",
+    "icons": [
+      {
+        "src": "/favicon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon.svg",
+        "sizes": "512x512",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "/favicon_maskable.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/favicon_maskable.svg",
+        "sizes": "512x512",
+        "type": "image/svg+xml",
+        "purpose": "maskable"
+      }
+    ]
+  }
+  
