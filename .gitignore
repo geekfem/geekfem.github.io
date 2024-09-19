@@ -1,5 +1,6 @@
 _site
 .sass-cache
 .deploy
+.hugo_build.lock
 public/
 resources/
