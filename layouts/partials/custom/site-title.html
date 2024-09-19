@@ -3,9 +3,9 @@
 
 <a href="{{ .Site.BaseURL | relLangURL }}">
     <picture id="header-image">
-        <source srcset="{{ $imagePos }}" media="(prefers-color-scheme: light)">
-        <source srcset="{{ $imageNeg }}" media="(prefers-color-scheme: dark)">
-        <img src="{{ $imagePos }}" 
+        <source srcset="{{ $imagePos.RelPermalink }}" media="(prefers-color-scheme: light)">
+        <source srcset="{{ $imageNeg.RelPermalink }}" media="(prefers-color-scheme: dark)">
+        <img src="{{ $imagePos.RelPermalink }}" 
             alt="Geekfem logo" 
             aria-details="A serif rich font spelling the name 'Geekfem'. The letter G modelled to resemble an owl looking at the reader.">
     </picture>
