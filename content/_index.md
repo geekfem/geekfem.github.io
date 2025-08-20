@@ -9,7 +9,8 @@ Wir treffen uns im Clubraum des CCCHH im Gebäude der FUX eG (Viktoriakaserne):
 * Zeiseweg 9
 * 22765 Hamburg-Altona
 
-**Aktuell gibt es keine Klingel!** 
+
+Inzwischen gibt es eine Klingelanlage: Wählt dort die 1337, dann kommt jemand runter und macht Euch auf.
 
 Weitere Informationen – auch für mobilitätseingeschränkte Personen – findet ihr beim [CCCHH](https://hamburg.ccc.de/#kontakt).
 
